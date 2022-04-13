@@ -1,18 +1,11 @@
 # obs-sponsor-banner-slider
-here how to use it
+here how to use it:
+
+open obs and make browser source and set local and set path to base.html path inside plugin folder
 ______________________________________________________________________________
-add your imgs to pics folder(jpeg, gif, png, apng, svg, bmp, bmp ico, png ico)
+how to set settings:
 
-to change setting of plugin open setting and set setting*
+open setting.html and set setting and click save ...
 
-setting = 
-var imgs_list = [img names in pics folder]&&array
-
-var position = [position of banner(left/right/top/bottom)]&&string
-
-var size = [size of width of img(pixels)]&&int
-
-var border = [border radius of img(em)]&&int
-var time_stay = [time that banner will be visible]
-
-var time_out = [time that banner will be unvisible]
+a file will get downloaded pleace file inside core file
+______________________________________________________________________________
