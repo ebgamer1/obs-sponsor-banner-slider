@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting</title>
+    <link rel="stylesheet" href="./core/setting,style.css">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/roboto');
+    </style>
+</head>
+<body>
+    <input type="file" multiple="multiple" id="file_picker" accept="image/*">
+    <div class="setting_box">
+        <div class="settings">
+            <div class="imgs_input">
+                <label for="file_picker" class="c_input"></label>
+                <hr  size=8 noshade color="#113111">
+                <div id="imgs"></div>
+            </div>
+        </div>
+        <hr  size=8 noshade color="#113111"  class="upper">
+            <select name="" class="inputs" id="set_pos">
+                <option value="left">left</option>
+                <option value="right">right</option>
+                <option value="top">top</option>
+                <option value="bottom">bottom</option>
+            </select>
+            <br>
+            <input type="number" placeholder="size: 300px" class="inputs" id="size" name="text_i">
+            <br>
+            <input type="number" placeholder="border: 0cm" class="inputs" id="border"  name="text_i">
+            <br>
+            <input type="number" placeholder="time stay: 1s" class="inputs" id="stay_s"  name="text_i">
+            <br>
+            <input type="number" placeholder="time out: 1s" class="inputs" id="out_s"  name="text_i">
+        <br>
+    <div class="inputs" id="subs">
+        <button class="sub_btn" id="reset" onclick="reset()">reset</button>
+        <button class="sub_btn" id="save" onclick="save()">save</button>
+    </div>
+    </div>
+</body>
+<script src="./core/setting.js"></script>
+</html>

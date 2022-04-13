@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(to right, rgb(164, 202, 255), rgb(0, 173, 216));
+}
+.setting_box{
+    position: relative;
+    height: auto;
+    width: 15cm;
+    left: 50%;
+    transform: translatex(-50%); 
+    background: rgb(230, 255, 255);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 255, 255, 0.31); 
+    border-radius: 1.2cm;
+    overflow: hidden;
+    padding-top: 1cm;
+}
+.imgs_view{
+    position: relative;
+    height: 3cm;
+    width: 4cm;
+    background: crimson;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    font-size: 2em;
+    overflow:hidden;
+    transition: 2s;
+}
+.upper{
+    margin-top: 1cm;
+}
+#imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#file_picker{
+    display: none;
+}
+.c_input{
+    position: relative;
+    border-radius: 10px;
+    background: url("https://icon-library.com/images/file-icon-png/file-icon-png-23.jpg") no-repeat ;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    padding: 1cm 1cm;
+    cursor: pointer;
+    left: 50%;
+    transform: translatex(-50%); 
+}
+.inputs{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%); 
+    margin-bottom: 1cm;
+    height: 1cm;
+    width: 5cm;
+    border-radius: 7px;
+}
+input[name="text_i"] {
+    transition: 200ms;
+}
+input[name="text_i"]:focus{
+ font-size: large;
+ transition: 200ms;
+}
+#set_pos{
+    width: 3cm;
+}
+#subs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub_btn{
+    width: 2cm;
+    cursor: pointer;
+    border: none;
+    border-radius: 1cm;
+}
+#reset{
+    background-color: rgb(252, 86, 86);
+}
+#save{
+    background-color: rgb(86, 252, 125);
+}

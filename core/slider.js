@@ -1,5 +1,6 @@
 //_______________________________________________________________
 //here codes dont touch thatඞ
+function big_run(){
 var counter = 0
 var index_size = imgs_list.length - 1
 
@@ -20,6 +21,7 @@ function set_img(){
     document.getElementById("img1").src="pics/" + imgs_list[counter];
     if(counter != index_size){
        counter = counter + 1
+       console.log(index_size)
     }
     else{
        counter = 0
@@ -45,4 +47,4 @@ async function run(){
     }
 }
 
-run()
+run()}
